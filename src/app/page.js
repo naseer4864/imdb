@@ -2,8 +2,7 @@
 
 export default function Home() {
   return (
-    <main>
-    Hello
-    </main>
+    
+   <h1 className="text-red-400">HOME</h1>
   )
 }
