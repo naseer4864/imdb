@@ -6,8 +6,7 @@ export default async function MoviePage({ params }) {
   const res = await axios.get(
     `https://api.themoviedb.org/3/movie/${movieId}?api_key=${process.env.NEXT_PUBLIC_API_KEY}`
   );
-  const movieData = await res.data;
-  console.log(movieData);
+  const movieData = await res.data
   const posterUrl = `https://image.tmdb.org/t/p/original/${movieData.poster_path}`;
 
   return (

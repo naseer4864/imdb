@@ -14,7 +14,7 @@ const Header = () => {
            <div className='flex items-center space-x-5'>
          <DarkModeSwitch/>
             <Link href="/">
-               <h2 className='text-2xl'><span className='font-bold bg-amber-400 py-1 px-1 rounded-lg mr-1'>IMDb</span> <span className="text-xl hidden sm:inline">Clone</span></h2>
+               <h2 className='text-2xl'><span className='font-bold bg-amber-400 py-1 px-1 rounded-lg mr-1'>IMDb</span> <span className="text-xl hidden sm:inline md:pr-5">Clone</span></h2>
             </Link>
            </div>
         </div>
