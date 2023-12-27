@@ -21,7 +21,6 @@ export default async function MoviePage({ params }) {
           style={{maxWidthidth: "100%", height: "100%", objectFit:"contain" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
-          alt="image not found"
         />
       <div className="p-2">
       <h2 className="text-lg mb-3 font-bold">{movieData.title}</h2>

@@ -19,7 +19,6 @@ const Card = ({ result }) => {
           style={{ maxWidth: "100%", height: "auto" }}
           placeholder="blur"
           blurDataURL="/spinner.svg"
-          alt="image not found"
         />
         <div className="p-2">
             <p className="line-clamp-2 text-sm">{result.overview}</p>
