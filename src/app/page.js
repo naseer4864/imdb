@@ -1,8 +1,7 @@
 import axios from "axios";
-
 import Results from "./components/Results";
 
-const Key = process.env.API_KEY;
+const Key = process.env.NEXT_PUBLIC_API_KEY;
 
 export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
